@@ -1250,3 +1250,20 @@ p {
 .merged-profile h2 {
   font-size: clamp(1.35rem, 2vw, 1.75rem);
 }
+
+/* Visible by default, animation only if JS adds support */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+body.animations-ready .reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+body.animations-ready .reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}

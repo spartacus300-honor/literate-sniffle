@@ -11,6 +11,8 @@ const modalClose = document.querySelector("#modalClose");
 
 year.textContent = new Date().getFullYear();
 
+document.body.classList.add("animations-ready");
+
 const topBar = document.querySelector(".top-bar");
 
 function updateTopbarHeight() {
