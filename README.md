@@ -44,6 +44,19 @@ This website is built with plain static files:
 
 It is hosted through **Cloudflare Pages**.
 
+## Credits
+
+See [`CREDITS.md`](./CREDITS.md) for website credits.
+
+## License
+
+This project uses a **View and Share Only License**.
+
+You may view and share the original website link, but you may not copy, reuse, modify, redistribute, re-upload, sell, or claim any part of this project as your own.
+
+See [`LICENSE`](./LICENSE) for details.
+
+
 ## Files
 
 ```txt
@@ -61,14 +74,3 @@ literate-sniffle/
    ├─ gallery-2.jpg
    └─ gallery-3.jpg
 
-## Credits
-
-See [`CREDITS.md`](./CREDITS.md) for website credits.
-
-## License
-
-This project uses a **View and Share Only License**.
-
-You may view and share the original website link, but you may not copy, reuse, modify, redistribute, re-upload, sell, or claim any part of this project as your own.
-
-See [`LICENSE`](./LICENSE) for details.
