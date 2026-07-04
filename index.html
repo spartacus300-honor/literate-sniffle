@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A personal website hosted on Cloudflare Pages." />
+  <meta name="theme-color" content="#ff7ac8" />
+
+  <title>Person Name | Personal Website</title>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="background-glow"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#home">Person<span>Name</span></a>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#links">Links</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+      ✦
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-card reveal">
+        <p class="eyebrow">Welcome to my little corner</p>
+
+        <h1>Hi, I’m <span>Person Name</span>.</h1>
+
+        <p class="hero-text">
+          This is a placeholder personal website. Replace this text with who the person is,
+          what they do, and what makes them special.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="profile-card reveal">
+        <div class="avatar">
+          <span>PN</span>
+        </div>
+
+        <h2>Person Name</h2>
+        <p>Creator • Developer • Artist</p>
+
+        <div class="status">
+          <span class="status-dot"></span>
+          Available for future ideas
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="about">
+      <div class="section-title">
+        <p class="eyebrow">About</p>
+        <h2>About this person</h2>
+      </div>
+
+      <div class="content-card">
+        <p>
+          Write a short bio here. You can talk about their hobbies, skills, style,
+          goals, or anything that should be shown on their website.
+        </p>
+
+        <p>
+          This starter is made to be simple, pretty, responsive, and easy to host on
+          Cloudflare Pages.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="section-title">
+        <p class="eyebrow">Work</p>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="grid">
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>Short description of the first project. Replace this with real details later.</p>
+          <a href="#">View project →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>Short description of the second project. Add links, screenshots, or notes later.</p>
+          <a href="#">View project →</a>
+        </article>
+
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>Another placeholder card for future work, services, or important links.</p>
+          <a href="#">View project →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="links">
+      <div class="section-title">
+        <p class="eyebrow">Socials</p>
+        <h2>Find me here</h2>
+      </div>
+
+      <div class="links-list">
+        <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="#" target="_blank" rel="noreferrer">Twitch</a>
+        <a href="#" target="_blank" rel="noreferrer">Discord</a>
+        <a href="#" target="_blank" rel="noreferrer">YouTube</a>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contact">
+      <div class="section-title">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s talk</h2>
+      </div>
+
+      <div class="content-card contact-card">
+        <p>
+          Add a contact email, Discord name, or contact form later.
+        </p>
+
+        <a class="button primary" href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Person Name. All rights reserved.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
