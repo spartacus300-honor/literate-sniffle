@@ -1,28 +1,62 @@
 # literate-sniffle
 
-Personal creator website for **spartacus300**.
+A personal creator website for **spartacus300**.
 
-Hosted with Cloudflare Pages.
+Live website:  
+https://spartacushosting.dpdns.org
 
-## Local testing
+## About
 
-Open the folder in VS Code and use Live Server.
+**literate-sniffle** is a dark medieval-style personal website made for **spartacus300**.
 
-## Required assets
+The website uses a red, gold, and dark fantasy design with a framed layout, profile section, background music toggle, gallery, socials, projects, hobbies, skills, and contact information.
 
-Put these files inside the `assets` folder:
+## Website Sections
 
-- `Background.jpg`
-- `page-image.jpg`
-- `pfp.jpg`
-- `background-music.mp3`
-- `gallery-1.jpg`
-- `gallery-2.jpg`
-- `gallery-3.jpg`
+- Welcome
+- About Me
+- Skills
+- Hobbies
+- Projects
+- Socials
+- Gallery
+- Contact Info
 
-## Deploy
+## Design
 
-```bash
-git add .
-git commit -m "Rework website design"
-git push
+The website is styled with:
+
+- Medieval-inspired fonts
+- Dark fantasy background
+- Golden picture-frame borders
+- Red and gold buttons
+- Transparent text bubbles
+- Profile image frame
+- Desktop and mobile responsive layout
+
+## Tech Stack
+
+This website is built with plain static files:
+
+- HTML
+- CSS
+- JavaScript
+
+It is hosted through **Cloudflare Pages**.
+
+## Files
+
+```txt
+literate-sniffle/
+├─ index.html
+├─ style.css
+├─ script.js
+├─ README.md
+└─ assets/
+   ├─ Background.jpg
+   ├─ page-image.jpg
+   ├─ pfp.jpg
+   ├─ background-music.mp3
+   ├─ gallery-1.jpg
+   ├─ gallery-2.jpg
+   └─ gallery-3.jpg
