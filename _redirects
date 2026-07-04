@@ -1,5 +1,13 @@
-# Cloudflare Pages redirects file
-# Add redirects here later if needed.
+# Cloudflare Pages redirects
 
-# Example:
-# /old-page /new-page 301
+# Send common old/wrong pages back to the correct sections
+/about /#about 301
+/skills /#skills 301
+/hobbies /#hobbies 301
+/projects /#projects 301
+/socials /#socials 301
+/gallery /#gallery 301
+/contact /#contact 301
+
+# Custom 404 page
+/* /404.html 404
