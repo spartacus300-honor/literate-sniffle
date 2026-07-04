@@ -3,139 +3,222 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="A personal website hosted on Cloudflare Pages." />
-  <meta name="theme-color" content="#ff7ac8" />
+  <meta name="description" content="Personal creator website for spartacus300." />
+  <meta name="theme-color" content="#120606" />
 
   <title>spartacus300 | literate-sniffle</title>
 
-  <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/jpeg" href="./assets/page-image.jpg" />
+    <link rel="apple-touch-icon" href="./assets/page-image.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Cormorant+Garamond:wght@500;600;700&family=Uncial+Antiqua&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <div class="background-glow"></div>
+    <div class="site-frame" aria-hidden="true"></div>
+  <div class="page-darkness"></div>
 
-  <header class="site-header">
-    <a class="logo" href="#home">literate<span>-sniffle</span></a>
+  <audio id="backgroundMusic" src="./assets/background-music.mp3" loop></audio>
 
-    <nav class="nav">
-      <a href="#about">About</a>
+  <header class="top-bar">
+    <a class="brand" href="#welcome">
+      <span>literate</span>-sniffle
+    </a>
+
+    <nav class="nav-buttons" aria-label="Main navigation">
+      <a href="#welcome">Welcome</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#hobbies">Hobbies</a>
       <a href="#projects">Projects</a>
-      <a href="#links">Links</a>
+      <a href="#socials">Socials</a>
+      <a href="#gallery">Gallery</a>
       <a href="#contact">Contact</a>
     </nav>
 
-    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
-      ✦
+    <button class="music-toggle" id="musicToggle" type="button">
+      Music: Off
     </button>
   </header>
 
   <main>
-    <section class="hero section" id="home">
-      <div class="hero-card reveal">
-        <p class="eyebrow">Welcome to my little corner</p>
+    <section class="section welcome-section" id="welcome">
+    <div class="text-bubble hero-bubble reveal">
+        <div class="merged-welcome">
+        <div class="merged-profile">
+            <div class="profile-frame">
+            <img src="./assets/pfp.jpg" alt="Profile picture of spartacus300" />
+            </div>
 
-        <h1>Hi, I’m <span>spartacus300</span>.</h1>
+            <h2>spartacus300</h2>
 
-        <p class="hero-text">
-          This is a placeholder personal website. Replace this text with who the person is,
-          what they do, and what makes them special.
-        </p>
-
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">View Projects</a>
-          <a class="button secondary" href="#contact">Contact Me</a>
-        </div>
-      </div>
-
-      <div class="profile-card reveal">
-        <div class="avatar">
-            <span>S3</span>
+            <div class="profile-badges">
+            <span>Creator</span>
+            <span>Gamer</span>
+            <span>Artist</span>
+            </div>
         </div>
 
-        <h2>spartacus300</h2>
-        <p>Creator • Developer • Artist</p>
+        <div class="welcome-copy">
+            <p class="section-kicker">Welcome to my Creator Corner</p>
 
-        <div class="status">
-          <span class="status-dot"></span>
-          Available for future ideas
+            <h1>Hi I'm <span>spartacus300</span>.</h1>
+
+            <p>
+            This is my personal Website.
+            </p>
+
+            <p class="credit-line">
+            Website Made by <strong>spartacus300</strong> and <strong>sasutendo</strong>
+            </p>
+
+            <div class="hero-actions">
+            <a class="main-button" href="#projects">View Projects</a>
+            <a class="main-button ghost" href="#contact">Contact Info</a>
+            </div>
         </div>
-      </div>
+        </div>
+    </div>
     </section>
 
     <section class="section reveal" id="about">
-      <div class="section-title">
-        <p class="eyebrow">About</p>
+      <div class="section-heading">
+        <p class="section-kicker">About</p>
         <h2>About Me</h2>
       </div>
 
-      <div class="content-card">
+      <div class="text-bubble">
         <p>
-          Write a short bio here. You can talk about their hobbies, skills, style,
-          goals, or anything that should be shown on their website.
+          This section is skipped for now. More information about spartacus300 can be added here later.
         </p>
+      </div>
+    </section>
 
+    <section class="section reveal" id="skills">
+      <div class="section-heading">
+        <p class="section-kicker">Skills</p>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="text-bubble">
         <p>
-          This starter is made to be simple, pretty, responsive, and easy to host on
-          Cloudflare Pages.
+          This section is skipped for now. Skills can be added here later.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal" id="hobbies">
+      <div class="section-heading">
+        <p class="section-kicker">Hobbies</p>
+        <h2>Hobbies</h2>
+      </div>
+
+      <div class="text-bubble">
+        <p>
+          This section is skipped for now. Hobbies can be added here later.
         </p>
       </div>
     </section>
 
     <section class="section reveal" id="projects">
-      <div class="section-title">
-        <p class="eyebrow">Work</p>
+      <div class="section-heading">
+        <p class="section-kicker">Projects</p>
         <h2>Projects</h2>
       </div>
 
-      <div class="grid">
-        <article class="project-card">
-          <h3>Project One</h3>
-          <p>Short description of the first project. Replace this with real details later.</p>
-          <a href="#">View project →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Project Two</h3>
-          <p>Short description of the second project. Add links, screenshots, or notes later.</p>
-          <a href="#">View project →</a>
-        </article>
-
-        <article class="project-card">
-          <h3>Project Three</h3>
-          <p>Another placeholder card for future work, services, or important links.</p>
-          <a href="#">View project →</a>
-        </article>
+      <div class="project-grid">
+        <a class="project-card hover-card" href="#" target="_blank" rel="noreferrer">
+          <span class="card-label">Future Project</span>
+          <h3>Project Placeholder</h3>
+          <p>
+            A placeholder project card. Replace this later with a real project link and description.
+          </p>
+          <strong>Open project →</strong>
+        </a>
       </div>
     </section>
 
-    <section class="section reveal" id="links">
-      <div class="section-title">
-        <p class="eyebrow">Socials</p>
-        <h2>Find me here</h2>
+    <section class="section reveal" id="socials">
+      <div class="section-heading">
+        <p class="section-kicker">Socials</p>
+        <h2>Socials</h2>
       </div>
 
-      <div class="links-list">
-        <a href="#" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="#" target="_blank" rel="noreferrer">Twitch</a>
-        <a href="#" target="_blank" rel="noreferrer">Discord</a>
-        <a href="#" target="_blank" rel="noreferrer">YouTube</a>
+      <div class="social-grid">
+        <a class="social-card hover-card" href="https://www.twitch.tv/spartacus300124" target="_blank" rel="noreferrer">
+          <span>Twitch</span>
+          <strong>spartacus300124</strong>
+        </a>
+
+        <a class="social-card hover-card" href="https://discord.com/" target="_blank" rel="noreferrer">
+          <span>Discord</span>
+          <strong>spartacus300_124</strong>
+        </a>
+
+        <a class="social-card hover-card" href="https://github.com/spartacus300-honor" target="_blank" rel="noreferrer">
+          <span>GitHub</span>
+          <strong>spartacus300-honor</strong>
+        </a>
+      </div>
+    </section>
+
+    <section class="section reveal" id="gallery">
+      <div class="section-heading">
+        <p class="section-kicker">Gallery</p>
+        <h2>Gallery</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-item" type="button" data-full="./assets/gallery-1.jpg">
+          <img src="./assets/gallery-1.jpg" alt="Gallery image 1" />
+          <span>Open Image</span>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="./assets/gallery-2.jpg">
+          <img src="./assets/gallery-2.jpg" alt="Gallery image 2" />
+          <span>Open Image</span>
+        </button>
+
+        <button class="gallery-item" type="button" data-full="./assets/gallery-3.jpg">
+          <img src="./assets/gallery-3.jpg" alt="Gallery image 3" />
+          <span>Open Image</span>
+        </button>
       </div>
     </section>
 
     <section class="section reveal" id="contact">
-      <div class="section-title">
-        <p class="eyebrow">Contact</p>
-        <h2>Let’s talk</h2>
+      <div class="section-heading">
+        <p class="section-kicker">Contact</p>
+        <h2>Contact Info</h2>
       </div>
 
-      <div class="content-card contact-card">
+      <div class="text-bubble contact-box">
         <p>
-          Add a contact email, Discord name, or contact form later.
+          Contact me via E-Mail and Discord
         </p>
 
-        <a class="button primary" href="mailto:hello@example.com">hello@example.com</a>
+        <div class="contact-actions">
+          <a class="main-button" href="mailto:spartacus300124@gmail.com">
+            E-Mail
+          </a>
+
+          <a class="main-button ghost" href="https://discord.com/" target="_blank" rel="noreferrer">
+            Discord: spartacus300_124
+          </a>
+        </div>
       </div>
     </section>
   </main>
+
+  <div class="image-modal" id="imageModal" aria-hidden="true">
+    <button class="modal-close" id="modalClose" type="button" aria-label="Close image">
+      ×
+    </button>
+    <img id="modalImage" src="" alt="Full gallery preview" />
+  </div>
 
   <footer class="site-footer">
     <p>© <span id="year"></span> spartacus300. All rights reserved.</p>

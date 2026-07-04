@@ -1,42 +1,28 @@
 # literate-sniffle
 
-A simple personal website for spartacus300, hosted with Cloudflare Pages.
+Personal creator website for **spartacus300**.
 
-## Files
+Hosted with Cloudflare Pages.
 
-- `index.html` — main website
-- `style.css` — website styling
-- `script.js` — theme toggle and animations
-- `404.html` — not-found page
-- `_headers` — Cloudflare Pages security headers
-- `_redirects` — optional Cloudflare redirects
+## Local testing
 
-## How to edit
+Open the folder in VS Code and use Live Server.
 
-Open `index.html` and replace:
+## Required assets
 
-- `Person Name`
-- profile text
-- about text
-- project cards
-- social links
-- contact email
+Put these files inside the `assets` folder:
 
-Open `style.css` to change colors, spacing, layout, and design.
+- `Background.jpg`
+- `page-image.jpg`
+- `pfp.jpg`
+- `background-music.mp3`
+- `gallery-1.jpg`
+- `gallery-2.jpg`
+- `gallery-3.jpg`
 
-## Cloudflare Pages
-
-Use these settings:
-
-- Framework preset: `None`
-- Build command: leave empty
-- Build output directory: `/`
-
-Make sure `index.html` is in the root of the repository.
-
-## Git commands
+## Deploy
 
 ```bash
 git add .
-git commit -m "Add website starter"
+git commit -m "Rework website design"
 git push
